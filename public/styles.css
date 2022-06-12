@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    #845ec2 2.6%,
+    #d65db1 33.85%,
+    #ff6f91 70.83%,
+    #ff9671 100%
+  );
+}
+
+/*Canvas*/
+
+.whiteboard {
+  height: 90%;
+  width: 97%;
+  position: absolute;
+  left: 28px;
+  bottom: 0;
+  top: 58px;
+
+  background: #ffffff;
+}
+
+.colors {
+  position: fixed;
+  left: 800px;
+  top: 5px;
+}
+
+.color {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.color.black {
+  background-color: black;
+}
+.color.red {
+  background-color: red;
+}
+.color.green {
+  background-color: green;
+}
+.color.blue {
+  background-color: blue;
+}
+.color.yellow {
+  background-color: yellow;
+}
